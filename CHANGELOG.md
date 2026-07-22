@@ -1,6 +1,32 @@
 # Changelog
 
-All notable changes to the sushidata-gtm plugin are documented here.
+All notable changes to the revductive-sushidata-plugin are documented here.
+
+---
+
+## [0.5.13] — 2026-07-22
+
+### Added
+
+**PredictLeads provider integration**
+
+- Added `skills/sushi-research/provider-playbooks/predictleads.md` — full playbook covering all PredictLeads tools: company enrichment, buying signals (`news_events`, `financing_events`, `connections`), technology stack intelligence, hiring signals, cross-company discovery, portfolio companies, GitHub/SEC data, similar companies, and follow/unfollow webhook tracking.
+- Updated `skills/sushi-research/SKILL.md`: added PredictLeads to provider routing, swarm tool reference, sub-doc routing table, and Provider Playbooks index.
+- Updated `skills/sushi-research/provider-playbooks/enrichment-waterfall.md`: added PredictLeads to Company Tools table and signal-based discovery guidance.
+- Updated `skills/sushi-research/finding-companies-and-contacts.md`: added `predictleads_discover_companies` and `predictleads_portfolio_companies` to the company search escalation order.
+- Updated `README.md`: added PredictLeads to the Provider Playbooks table and requirements list.
+
+---
+
+## [0.5.12] — 2026-07-21
+
+### Added
+
+**Initial release for Revductive**
+
+- Plugin provisioned for [Revductive](https://revductive.com/) — fractional RevOps and GTM operations for B2B SaaS teams
+- BASE_URL, Tenant, and Dataspace configured for the Revductive Sushidata instance
+- Full skill set included: `sushi-research`, `sushi-onboard`, `sushi-signals`, `sushi-save`, `sushi-restore`, `sushi-sales`, `sushi-cost-savings`
 
 ---
 

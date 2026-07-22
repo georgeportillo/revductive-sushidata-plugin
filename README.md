@@ -1,6 +1,6 @@
-# sushidata-gtm
+# revductive-sushidata-plugin
 
-A Claude Cowork plugin that turns Claude into a Sushidata-native GTM agent. Every research session, prospect list, and competitive finding is saved to the Sushidata context lake so future sessions build on what was already learned — not from scratch.
+A Claude Cowork plugin that turns Claude into a Sushidata-native GTM agent for Revductive — the fractional RevOps and growth firm that helps B2B SaaS companies and agencies eliminate operational bottlenecks and build scalable GTM infrastructure. Every research session, prospect list, and competitive finding is saved to the Revductive Sushidata context lake so future sessions build on what was already learned — not from scratch.
 
 ## What this plugin does
 
@@ -53,6 +53,7 @@ Inside `skills/sushi-research/provider-playbooks/`:
 | `heyreach.md` | LinkedIn campaign insertion (≤50 contacts per batch) |
 | `hubspot.md` | Contact, company, note, and deal upsert patterns |
 | `apify.md` | Actor quality ranking, job listing scraping, LinkedIn data |
+| `predictleads.md` | Company intelligence, buying signals, technology stack, hiring/funding events, follow webhooks |
 
 ---
 
@@ -61,9 +62,9 @@ Inside `skills/sushi-research/provider-playbooks/`:
 All skills connect to:
 
 ```
-BASE URL:  https://dashboard.sushidata.ai/public/019dff6e-988f-71e2-8aa0-1be949e8421b/
-Tenant:    Sushidata
-Dataspace: Sushidata Internal
+BASE URL:  https://dashboard.sushidata.ai/public/019f8530-aa85-7713-99c4-aa681600ab9d/
+Tenant:    Revductive
+Dataspace: Revductive
 ```
 
 Key endpoints:
@@ -130,5 +131,5 @@ The ZIP root must contain `.claude-plugin/plugin.json` and `skills/` directly �
 ## Requirements
 
 - Claude Cowork (desktop app) with the plugin installed
-- Sushidata account with access to the `Sushidata Internal` dataspace
-- MCP connectors for the providers you want to use: HeyReach, HubSpot, Apify, FullEnrich
+- Sushidata account with access to the `Revductive` dataspace
+- MCP connectors for the providers you want to use: HeyReach, HubSpot, Apify, FullEnrich, PredictLeads
